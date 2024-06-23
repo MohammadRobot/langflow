@@ -72,6 +72,12 @@ python -m langflow run
 
 You can also preview Langflow in [HuggingFace Spaces](https://huggingface.co/spaces/Langflow/Langflow-Preview). [Clone the space using this link](https://huggingface.co/spaces/Langflow/Langflow-Preview?duplicate=true) to create your own Langflow workspace in minutes.
 
+Go to [Settings] page
+Click [View] of 'LANGFLOW_REMOVE_API_KEYS' variable
+Update the value from 'true' to 'false'
+(I created 'OPENAI_API_KEY' variable, but maybe it's option)
+Click [Factory rebuild] *Not sure it's necessary step. I wanted to run LangFlow with the updated 'LANGFLOW_REMOVE_API_KEYS' variable
+
 # 🎨 Create Flows
 
 Creating flows with Langflow is easy. Simply drag components from the sidebar onto the canvas and connect them to start building your application.
